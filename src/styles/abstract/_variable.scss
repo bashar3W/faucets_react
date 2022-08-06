@@ -1,0 +1,32 @@
+// light mode variable
+:root {
+  --primary-bg: #9b1fe9;
+  --gray-hover-bg-color: #f5f7fd;
+  --gray-white-bg-color: #eef2fe;
+  --white-bg-color: #ffffff;
+
+  //   text color
+  --primary-text-color: #9b1fe9;
+  --gray-white-text-color: #6d7380;
+  --white-text-color: #ffffff;
+  --gray-black-text-color: #1a2b6b;
+}
+
+// dark mode variable
+.dark {
+  --primary-bg: "red";
+  //   text color
+  --primary-text-color: "black";
+}
+// common mode variable
+$primary-bg: var(--primary-bg);
+$gray-hover-bg-color: var(--gray-hover-bg-color);
+$gray-white-bg-color: var(--gray-white-bg-color);
+$white-bg-color: var(--white-bg-color);
+// text color
+$primary-text-color: var(--primary-text-color);
+$gray-white-text-color: var(--gray-white-text-color);
+$white-text-color: var(--white-text-color);
+$gray-black-text-color: var(--gray-black-text-color);
+// font family
+$font-family: "Varela Round", sans-serif;
